@@ -1,0 +1,75 @@
+body {
+  padding-inline: 18px;
+  background-color: black;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav a {
+    display: flex;
+    font-size: 24px;
+    text-decoration: none;
+    align-items: center;
+}
+
+#a1{
+    color: red;
+    font-weight: 999;
+    font-size: 38px;
+}
+
+#a2{
+    color: rgb(226, 219, 219);
+}
+
+#a2:hover{
+    color: red;
+}
+
+.myImage{
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+    border: 1px solid ;
+    border-radius: 300px;
+    padding: 50px;
+}
+
+.belowImageText{
+    display: flex;
+    color: white;
+    font-size: 24px;
+    padding-left: 28px;
+    gap: 12px;
+}
+
+.belowImageText p span {
+    color: red;
+    font-size: 30px;
+}
+
+#sp1, #sp2{
+    padding-left: 8px;
+}
+
+.joinUs{
+    display: flex;
+    font-size: 28px;
+    margin-top: 70px ;
+    width: fit-content;
+}
+
+.joinUs a{
+    color: red;
+    text-decoration: none;
+    background:linear-gradient(55deg,black,red);
+    border-radius: 30px;
+    padding: 11px;
+}
+
+
+
+

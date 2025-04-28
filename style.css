@@ -70,6 +70,20 @@ header nav a {
     padding: 11px;
 }
 
+.miniText {
+    display: flex;
+    justify-content: center;
+    margin-top: 32px;
+}
 
+.miniText p {
+    color: white;
+    font-size: 22px;
+}
+
+.miniText p span {
+    color: red;
+    font-size: 28px;
+}
 
 

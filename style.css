@@ -86,4 +86,25 @@ header nav a {
     font-size: 28px;
 }
 
+.downloadCv{
+    display: flex;
+    justify-content: center;
+}
+
+.downloadCv #a4 {
+    color: red;
+    border: 2px solid red;
+    border-radius: 30px;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.downloadCv #a4:hover {
+    color: white;
+    background-color: red;
+}
+
 
